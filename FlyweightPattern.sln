@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{661D7539-0A50-4EE7-A469-C1B9AB4BFD89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{7CE76C04-F182-4F5E-BE07-8943BA044583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightLib", "FlyweightLib\FlyweightLib.csproj", "{F2C9E835-DCDE-4069-A3A8-C4080228F3EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{661D7539-0A50-4EE7-A469-C1B9AB4BFD89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661D7539-0A50-4EE7-A469-C1B9AB4BFD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661D7539-0A50-4EE7-A469-C1B9AB4BFD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661D7539-0A50-4EE7-A469-C1B9AB4BFD89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE76C04-F182-4F5E-BE07-8943BA044583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE76C04-F182-4F5E-BE07-8943BA044583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE76C04-F182-4F5E-BE07-8943BA044583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE76C04-F182-4F5E-BE07-8943BA044583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C9E835-DCDE-4069-A3A8-C4080228F3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C9E835-DCDE-4069-A3A8-C4080228F3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C9E835-DCDE-4069-A3A8-C4080228F3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C9E835-DCDE-4069-A3A8-C4080228F3EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6F3F53A-D6CA-425A-80B5-852A748DA962}
+	EndGlobalSection
+EndGlobal

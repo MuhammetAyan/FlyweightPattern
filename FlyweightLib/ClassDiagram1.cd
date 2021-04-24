@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FlyweightLib.Packet">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAA=</HashCode>
+      <FileName>Packet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlyweightLib.Shape">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAABAAAEAAgAAAAAA=</HashCode>
+      <FileName>Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlyweightLib.TCPServer">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="FlyweightLib.TCPServer.packet" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TCPServer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="FlyweightLib.TCPServer.NoneData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TCPServer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="FlyweightLib.TCPServer.Success" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TCPServer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACAAAAAACAAAAAAAAAAEAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>TCPServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlyweightLib.TCPClient">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAJAAAAAEAAAIAAAQAAAAgQAAAABAAAAAA=</HashCode>
+      <FileName>TCPClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlyweightLib.ShapePooling">
+    <Position X="4.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>ShapePooling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
